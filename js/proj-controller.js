@@ -52,3 +52,15 @@ function onRenderModal(id) {
 function getProject(id) {
     return getProjectById(id);
 }
+
+
+// function sendEmail() {
+
+//     console.log('send');
+
+// }
+
+// $("input[name*='sendemail']").on('click', sendEmail);
+
+
+// $submitBtn.on('click', sendEmail);

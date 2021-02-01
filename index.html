@@ -29,11 +29,33 @@
     <div class="offcanvas-btn" onClick="openCanvas()">
         <i class="fa fa-comment" aria-hidden="true"></i>
     </div>
-    <aside class="offcanvas-aside">
+    <aside class="offcanvas-aside comment">
 
         <!-- Contact -->
-        <section id="contact">
-            <h4>Contact Me</h4>
+        <section id="contact" class="text-center">
+            <form>
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Your Email</label>
+                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Subject</label>
+                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder="Type subject here">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message Body</label>
+                    <textarea name="msg" class="form-control" id="exampleFormControlTextarea1" placeholder="Type message text here" rows="3"></textarea>
+                </div>
+
+
+
+                <button name="sendemail" type="button" class="btn btn-light">Submit</button>
+
+            </form>
         </section>
 
     </aside>
@@ -226,7 +248,7 @@
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                                 <p class="desc">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
                                     maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <button class="btn btn-success mb-3 link" type="button">Go to project</button>
+                                <button class="btn btn-success mb-3 link" type="button">Check it out!</button>
                                 <ul class="list-inline">
                                     <li class="date">Date: January 2017</li>
                                     <!-- <li>Client: Threads</li> -->
