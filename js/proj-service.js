@@ -34,6 +34,26 @@ function generateProjs() {
             url: "https://yonatanmiz963.github.io/Guess-Who/",
             publishedAt: 1612044000000,
             labels: "Binary Trees"
+        },
+        {
+            por: 3,
+            id: "pacman",
+            name: "Pacman",
+            title: "The first video game",
+            desc: "During this project we have created the legendary Pacman game, learning alot about logic, and the concept of update model and then rendering to DOM. ",
+            url: "https://yonatanmiz963.github.io/Pacman/",
+            publishedAt: 1611007200000,
+            labels: "Matrixes"
+        },
+        {
+            por: 4,
+            id: "ballboard",
+            name: "Ball-Board",
+            title: "Get all the balls!",
+            desc: "In this project I have learnt alot about logic, matrixes as models and rendering to DOM. ",
+            url: "https://yonatanmiz963.github.io/Ball-Board/",
+            publishedAt: 1610834400000,
+            labels: "Materixes"
         }
 
     ]
