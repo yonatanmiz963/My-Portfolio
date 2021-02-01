@@ -5,7 +5,7 @@ var gProjs;
 
 
 function generateProjs() {
-    return [{
+    gProjs = [{
             por: 0,
             id: "mine-sleeper",
             name: "Mine Sleeper",
@@ -54,7 +54,27 @@ function generateProjs() {
             url: "https://yonatanmiz963.github.io/Ball-Board/",
             publishedAt: 1610834400000,
             labels: "Materixes"
+        },
+        {
+            por: 5,
+            id: "todomvc",
+            name: "To-Do",
+            title: "A useful to do list",
+            desc: "In this project I learnt how to use the MVC concept, also using array extras. ",
+            url: "https://yonatanmiz963.github.io/To-do-list/",
+            publishedAt: 1611698400000,
+            labels: "MVC"
         }
-
     ]
+}
+
+function getProjects() {
+    return gProjs;
+}
+
+function getProjectById(id) {
+    var project = gProjs.find(function(proj) {
+        return proj.id === id;
+    })
+    return project;
 }
