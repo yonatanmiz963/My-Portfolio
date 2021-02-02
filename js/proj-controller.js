@@ -2,11 +2,12 @@
 
 
 
-$(document).ready(function initPage() {
+
+
+$(function initPage() {
     generateProjs();
     var projects = getProjects();
     renderPortfolios(projects);
-
 });
 
 
@@ -54,13 +55,7 @@ function getProject(id) {
 }
 
 
-// function sendEmail() {
+function sendEmail(ev) {
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&body=BODY')
 
-//     console.log('send');
-
-// }
-
-// $("input[name*='sendemail']").on('click', sendEmail);
-
-
-// $submitBtn.on('click', sendEmail);
+}

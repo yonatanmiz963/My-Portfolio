@@ -33,29 +33,29 @@
 
         <!-- Contact -->
         <section id="contact" class="text-center">
+
             <form>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Your Email</label>
-                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Subject</label>
-                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder="Type subject here">
+                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder="Type subject here" required>
 
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message Body</label>
-                    <textarea name="msg" class="form-control" id="exampleFormControlTextarea1" placeholder="Type message text here" rows="3"></textarea>
+                    <textarea name="msg" class="form-control" id="exampleFormControlTextarea1" placeholder="Type message text here" rows="3" required></textarea>
                 </div>
 
-
-
-                <button name="sendemail" type="button" class="btn btn-light">Submit</button>
+                <button onclick="sendEmail()" name="sendemail" type="button" class="btn btn-light">Submit</button>
 
             </form>
+
         </section>
 
     </aside>
