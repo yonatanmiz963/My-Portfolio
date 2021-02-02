@@ -22,7 +22,7 @@ function renderPortfolios(projects) {
         <i class="fa fa-plus fa-3x"></i>
         </div>
         </div>
-        <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+        <img class="img-fluid" src="img/portfolio/${proj.id}.png" alt="">
         </a>
         <div class="portfolio-caption">
         <h4>${proj.name}</h4>
@@ -40,6 +40,9 @@ function onRenderModal(id) {
     // console.log(project);
 
     var $modal = $('.modal');
+
+    $modal.find('.img-fluid').attr("src", `img/portfolios/${project.id}.png`);
+
     $modal.find('h2').text(project.name);
     $modal.find('.item-intro').text(project.title);
     $modal.find('.desc').text(project.desc);
@@ -55,7 +58,8 @@ function getProject(id) {
 }
 
 
-function sendEmail(ev) {
-    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&body=BODY')
-
+function sendEmail() {
+    var subject = $('input[name=subject]').val()
+    var body = $('textarea[name=body]').val().replace(/\n/g, `%0d%0a`)
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=yonatanmiz963@gmail.com&su=${subject}&body=${body}`)
 }

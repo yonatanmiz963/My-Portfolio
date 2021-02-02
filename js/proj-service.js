@@ -7,7 +7,7 @@ var gProjs;
 function generateProjs() {
     gProjs = [{
             por: 0,
-            id: "mine-sleeper",
+            id: "minesleeper",
             name: "Mine Sleeper",
             title: "Find all mines and win!",
             desc: "Coding this game was my first sprint in the Coding Academy course, it was an enriching and challenging experience, in this game your goal is to mark all the mine squares with a flag then you win. ",
@@ -17,7 +17,7 @@ function generateProjs() {
         },
         {
             por: 1,
-            id: "book-shop",
+            id: "bookshop",
             name: "Book Shop",
             title: "a bookshop data storage",
             desc: "In this project I had learn about the MVC and CRUDL concepts which stand for dividing the roles of each file, the view, the controller and the model. ",
@@ -27,7 +27,7 @@ function generateProjs() {
         },
         {
             por: 2,
-            id: "guess-who",
+            id: "guesswho",
             name: "Guess Who",
             title: "A Smart Jinny",
             desc: "In this project we have created a bot using binary trees and gets more knowledge each time you tell him new things, he guesses who you think of eventually. ",
@@ -57,7 +57,7 @@ function generateProjs() {
         },
         {
             por: 5,
-            id: "todomvc",
+            id: "todo",
             name: "To-Do",
             title: "A useful to do list",
             desc: "In this project I learnt how to use the MVC concept, also using array extras. ",
