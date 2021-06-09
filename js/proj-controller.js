@@ -1,9 +1,6 @@
 'use strict';
 
 
-
-
-
 $(function initPage() {
     generateProjs();
     var projects = getProjects();
@@ -13,7 +10,7 @@ $(function initPage() {
 
 function renderPortfolios(projects) {
 
-    var portfoliosHTML = projects.map(function(proj) {
+    var portfoliosHTML = projects.map(function (proj) {
 
         return `<div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -22,7 +19,7 @@ function renderPortfolios(projects) {
         <i class="fa fa-plus fa-3x"></i>
         </div>
         </div>
-        <img class="img-fluid" src="img/portfolio/${proj.id}.png" alt="">
+        <img class="img-fluid" src="img/portfolios/${proj.id}.png" alt="">
         </a>
         <div class="portfolio-caption">
         <h4>${proj.name}</h4>
@@ -46,9 +43,9 @@ function onRenderModal(id) {
     $modal.find('h2').text(project.name);
     $modal.find('.item-intro').text(project.title);
     $modal.find('.desc').text(project.desc);
-    $modal.find('.date').text(`Created at: ${new Date(project.publishedAt).toDateString()}`);
-    $modal.find('.label').text(`Category: ${project.labels}`);
-    $modal.find('.link').click(function() {
+    // $modal.find('.date').text(`Created at: ${new Date(project.publishedAt).toDateString()}`);
+    $modal.find('.label').text(`Technologics: ${project.techs}.`);
+    $modal.find('.link').click(function () {
         window.open(`${project.url}`);
     });
 }
