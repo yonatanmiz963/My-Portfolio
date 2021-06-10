@@ -17,6 +17,16 @@ function generateProjs() {
     },
     {
         por: 1,
+        id: "mistertoy",
+        name: "MisterToy",
+        title: "eCommerce",
+        desc: "A Toy shop eCommerce application with user authentication, allows the users to review the items they purchased, a live chat for each item updating in real time.",
+        url: "https://mr-toy-shop.herokuapp.com/#/",
+        labels: "eCommerce",
+        techs: "Vue, Vuex, Node.js, MongoDB, Web Sockets"
+    },
+    {
+        por: 1,
         id: "appsus",
         name: "Appsus",
         title: "Notes and Mailbox",
@@ -34,6 +44,16 @@ function generateProjs() {
         url: "https://yonatanmiz963.github.io/bitcoin/#/signup",
         labels: "Coin Trade",
         techs: "React"
+    },
+    {
+        por: 1,
+        id: "missbook",
+        name: "MissBook",
+        title: "Books Stock",
+        desc: "A book stock allowing you to explore new books, review them and even search and add new books to the stock.",
+        url: "https://yonatanmiz963.github.io/miss-book/#/",
+        labels: "Books Stock",
+        techs: "Vue"
     },
     {
         por: 1,
@@ -55,44 +75,24 @@ function generateProjs() {
         labels: "Meme Generator",
         techs: "CSS, HTML5, Vanila, MVC"
     },
-    {
-        por: 1,
-        id: "missbook",
-        name: "MissBook",
-        title: "Books Stock",
-        desc: "A book stock allowing you to explore new books, review them and even search and add new books to the stock.",
-        url: "https://yonatanmiz963.github.io/miss-book/#/",
-        labels: "Books Stock",
-        techs: "Vue"
-    },
-    {
-        por: 1,
-        id: "mistertoy",
-        name: "MisterToy",
-        title: "eCommerce",
-        desc: "A Toy shop eCommerce application with user authentication, allows the users to review the items they purchased, a live chat for each item updating in real time.",
-        url: "https://mr-toy-shop.herokuapp.com/#/",
-        labels: "eCommerce",
-        techs: "Vue, Vuex, Node.js, MongoDB, Web Sockets"
-    },
-    // {
-    //     por: 3,
-    //     id: "pacman",
-    //     name: "Pacman",
-    //     title: "The first video game",
-    //     desc: "During this project we have created the legendary Pacman game, learning alot about logic, and the concept of update model and then rendering to DOM. ",
-    //     url: "https://yonatanmiz963.github.io/Pacman/",
-    //     labels: "Matrixes"
-    // },
-    // {
-    //     por: 4,
-    //     id: "ballboard",
-    //     name: "Ball-Board",
-    //     title: "Get all the balls!",
-    //     desc: "In this project I have learnt alot about logic, matrixes as models and rendering to DOM. ",
-    //     url: "https://yonatanmiz963.github.io/Ball-Board/",
-    //     labels: "Materixes"
-    // },
+        // {
+        //     por: 3,
+        //     id: "pacman",
+        //     name: "Pacman",
+        //     title: "The first video game",
+        //     desc: "During this project we have created the legendary Pacman game, learning alot about logic, and the concept of update model and then rendering to DOM. ",
+        //     url: "https://yonatanmiz963.github.io/Pacman/",
+        //     labels: "Matrixes"
+        // },
+        // {
+        //     por: 4,
+        //     id: "ballboard",
+        //     name: "Ball-Board",
+        //     title: "Get all the balls!",
+        //     desc: "In this project I have learnt alot about logic, matrixes as models and rendering to DOM. ",
+        //     url: "https://yonatanmiz963.github.io/Ball-Board/",
+        //     labels: "Materixes"
+        // },
     ]
 }
 
