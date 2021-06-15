@@ -16,7 +16,7 @@ function renderPortfolios(projects) {
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
         <div class="portfolio-hover" onclick="onRenderModal('${proj.id}')">
         <div class="portfolio-hover-content">
-        <i class="fa fa-plus fa-3x"></i>
+        <i class="far fa-eye fa-3x"></i>
         </div>
         </div>
         <img class="img-fluid" src="img/portfolios/${proj.id}.png" alt="">
@@ -45,9 +45,10 @@ function onRenderModal(id) {
     $modal.find('.desc').text(project.desc);
     // $modal.find('.date').text(`Created at: ${new Date(project.publishedAt).toDateString()}`);
     $modal.find('.label').text(`Technologics: ${project.techs}.`);
-    $modal.find('.link').click(function () {
-        window.open(`${project.url}`);
-    });
+    $modal.find('.link').attr("href", `${project.url}`)
+    // $modal.find('.link').click(function () {
+    //     window.open(`${project.url}`);
+    // });
 }
 
 function getProject(id) {

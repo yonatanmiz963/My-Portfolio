@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>My Portfolio</title>
+    <title>Yonatan Mizrahi</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,24 @@
 
     <!-- Custom styles for this template -->
     <link href="css/ca-gallery.css" rel="stylesheet">
-
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <link rel="manifest" href="img/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body id="page-top">
@@ -47,14 +64,14 @@
 
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Subject</label>
-                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Type subject here" required>
+                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder=""
+                        required>
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message Body</label>
-                    <textarea name="body" class="form-control" id="exampleFormControlTextarea1"
-                        placeholder="Type message text here" rows="3" required></textarea>
+                    <textarea name="body" class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="3"
+                        required></textarea>
                 </div>
 
                 <button onclick="sendEmail()" name="sendemail" type="button"
@@ -258,11 +275,11 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 flex-align-center">
+                <!-- <div class="col-md-4 flex-align-center">
                     <a href="http://coding-academy.org" target="_blank">
                         <img class="ca-img" src="./img/ca-logo.png" alt="">
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-4 flex-align-center">
                     <ul class="list-inline quicklinks">
                         <li class="list-inline-item">
@@ -297,7 +314,9 @@
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                                 <p class="desc"></p>
                                 <p class="label"></p>
-                                <button class="btn mb-3 link check-it" type="button">Click to see</button>
+                                <a class="btn mb-3 link check-it proj-link" target="_blank" type="button">Click to
+                                    see</a>
+                                <!-- <button class="btn mb-3 link check-it" target="_blank" type="button">Click to see</button> -->
                             </div>
                         </div>
                     </div>
